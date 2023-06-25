@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: "Century Gothic", sans-serif;
+  
+  }
+  
+  body {
+    color: #2d85d2;
+    ;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .main-box {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(#000000bb, #000000bb), url(https://th.bing.com/th/id/OIP.LOOSTVlqsoFT6UMBpiowKgHaEI?w=305&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 30vh;
+  }
+  
+  .main-box h1 {
+    word-spacing: 8px;
+    margin-bottom: 15px;
+    font-family: serif;
+    color: #23f408;
+  }
+  
+  .main-box p {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    margin-bottom: 40px;
+    color: #23f408;
+  }
+  
+  .main-box button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    border: 1px solid #ff8800;
+    color: #ffffff;
+  }
+  
+  .main-box button:hover {
+    background: #ff8800;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .container h2 {
+    color: #ff8800;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+  }
+  
+  .container h2::before,
+  .container h2::after {
+    content: "-----";
+    letter-spacing: -5px;
+    font-weight: lighter;
+    margin: 0 20px 0 10px;
+  }
+  
+  .container .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container .column {
+    width: 32%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .container .column img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .column a:last-child {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0;
+    top: 99%;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #ff8800c0;
+    text-align: center;
+    padding-top: 14vw;
+    font-size: 3vw;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .container .column:hover a:last-child {
+    height: 100%;
+    top: 0;
+  }
+  
+  .step {
+    padding: 25px;
+    display: flex;
+    background-color: #e5e5e5;
+    height: 225px;
+    justify-content: space-around;
+  }
+  
+  .box {
+    /* flex:auto; */
+    /* margin-right: 15px;
+    margin-left: 15px; */
+    background-color: orange;
+    width: 350px;
+    height: 175px;
+  }
+  
+  /* /navbar/ */
+  .nav-item a{
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .navbar-nav{
+    align-items: center;
+  }
+  nav {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  nav img {
+    width: 6.2rem;
+    margin-right: 20px;
+  }
+  .nav-item a {
+    margin-right: 2.5rem;
+    color: #fff;
+  
+  }
+  
+  .tag a:hover {
+    color: #fff;
+    border-bottom: 2px solid wheat
+  }
+  
+  
+  /* /flash/ */
+  
+  #box {
+   
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder; 
+  
+  }
+  #flashlight {
+    color: hsla(0, 0%, 0%, 0);
+    perspective: 80px;
+    outline: none;
+  }
+  
+  
+  #flash {
+    display:block;
+    text-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -3px 2px, rgba(0, 0, 0, 0.8) 0 30px 25px;
+  
+    font-size: 5rem;
+  }
+  
+  #light {
+    display:block;
+    text-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -3px 2px, rgba(0, 0, 0, 0.8) 0 30px 25px;
+    font-size: 2.5rem;
+  }
+  
+  .reserve{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  
+    margin: 1rem 0;
+    margin: 5px auto;
+    width: 50%;
+    text-align: center;
+  }
+  .click{
+    color: red;
+  }
+  .contactForm {
+    width: 40%;
+    padding: 40px;
+    background: #fff
+  }
+  
+  .contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500
+  }
+  
+  .contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px
+  }
+  
+  .contactForm .inputBox input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: 0;
+    resize: none
+  }
+  
+  .inputBox span {
+    bottom: 15px;
+    left: 0;
+    padding: 5px;
+    margin: 10px;
+    pointer-events: none;
+    transition: .5s;
+    color: #666;
+    position: absolute;
+  }
+  
+  .contactForm .inputBox input:focus~span,
+  .contactForm .inputBox input:valid~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px)
+  }
+  
+  .contactForm .inputBox input[type=submit] {
+    width: 100px;
+    background: #d4af37;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px
+  }
+  
+  .inputBox input[type=submit]:hover {
+    transform: scale(.95)
+  }
+  .contactForm {
+    width: 60%;
+    margin: 1rem auto;
+    box-shadow: 1px 0.5px 1px 6px rgba(0, 0, 0, 0.8);
+    border-radius: 10%;
+  }
+  .bots{
+    display: flex;
+    flex-direction: row;
+  }
+  /* /bot-info/ */
+  .bot-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+   margin-left: 12rem;
+    width: 70%;
+    color: #2d85d2;
+   
+  
+  }
+  .bot{
+    margin: 0 2rem;
+    height:50%;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .footer{
+  color: #d4af37;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+     margin-top: 50px;
+   padding: 50px;
+    box-shadow: 1px 1px 5px #d4af37;
+  }
+  .item{
+    color: #09dccebb;
+    font-size: large;
+  }
+  
+  .item2{
+    color: #e91e63;
+    font-size: large;
+  }
+  
+  .service{
+    color: black;
+  }

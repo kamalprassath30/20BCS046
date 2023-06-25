@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="TEAM 2">
+    <title>Train Reservation</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-xl  navbar-dark  fixed-top">
+        <div class="container">
+            <a href="Train1.html" id="img-link">
+                <img  class="d-xl-none" src="https://th.bing.com/th/id/OIP.LcHCUifeo_5ywLHe24j9ewHaFu?pid=ImgDet&rs=1"
+                    alt="logo">
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navmenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item tag">
+                        <a href="/home" class="nav-link ">HOME</a>
+                    </li>
+                    <li class="nav-item tag">
+                        <a href="/purchase" class="nav-link ">BOOK TRAIN</a>
+                    </li>
+                  
+                 
+    
+    
+                    <li class="nav-item tag">
+                        <a href="/documents" class="nav-link ">DOCUMENTS</a>
+                    </li>
+                    <li class="nav-item tag">
+                        <a href="" class="nav-link ">CONTACT</a>
+                    </li>
+                  
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="main-box">
+        <div id="box">
+            <p id="flashlight">
+                <span id="light">TRAVEL TO YOUR FULLEST</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="contactForm">
+            <form action="/home/" method="POST">
+                
+                <h2 style="color:#d4af37;text-align:center">Make Your Reservations</h2>
+                <div class="inputBox">
+                    
+                    <input type="text" name="name" id="name" required>
+                    <span>Full Name</span>
+                      
+        
+                </div>
+                <div class="inputBox">
+                    <input type="number" name="age" id="age" required>
+                    <span>Age</span>
+        
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="number" id="contact" pattern="^[0-9]{10}$" required>
+                    <span>Contact Number</span>
+                </div>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" required>
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <select name="hospital" id="hospital">
+                            <option selected="true" disabled="disabled" value="">Choose Train</option>
+                            <option value="Blue Mountains">Blue Mountains</option>
+                            <option value="Amigo Express">Amigo Express</option>
+                            <option value="Druonto Express">Druonto Express</option>
+                            <option value="Deccan odyssey">Deccan odyssey</option>
+                            <option value="The Golden Chariot">The Golden Chariot</option>
+                        </select>
+                </div>
+                <div class="inputBox">
+                <div class="inputBox">
+                
+                    <select name="time" , id="time">
+                        <option selected="true" disabled="disabled" value="">Choose time </option>
+                        <option value="10:00">10.am</option>
+                        <option value="10:30">10.30.am</option>
+                        <option value="11:00">11.am</option>
+                        <option value="11:30">11.30am</option>
+                        <option value="12:00">12.pm</option>
+                        <option value="14:00">2.pm</option>
+                        <option value="14:30">2.30 pm</option>
+                        <option value="15:00">3 pm</option>
+                        <option value="15:30">3.30.pm</option>
+                        <option value="16:00">4 pm</option>
+                        <option value="16:30">4.30pm</option>
+                        <option value="17:00">5 pm</option>
+                        <option value="17:30">05.30pm</option>
+
+                    </select>
+    
+                
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="cotainer">
+
+    </div>
+
+
+    <footer>
+        <div class="footer container">
+            <div class="row1">
+
+                <div class="item">
+                    <h3 class="services">Services</h3>
+                    <ul>
+                        <li><a class="item" href="purchase.html">Book Tickets</a></li>
+                        <li><a class="item" href="/documents">Documents</a></li>
+                        <li><a class="item" href="chatbot.html">Chatbot</a></li>
+                    </ul>
+                </div>
+         
+
+            </div>
+                <div class="row2">
+                    <div class="item2">
+                        <h3>Motto</h3>
+                        <p>It is never too early or too late to book tickets for your journey!</p>
+                    </div>
+                    <p>Contact Us</p>
+                    <div class="col item social"><a href="#"><img src ="https://www.freepnglogos.com/uploads/facebook-logo-13.png" width="20px" height="20px"></a>
+                        
+                        <a href="#"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0IJVDdxX2gc2vMkTw1xWDQyzkjhTQqX28SlyiSE3q_8H0dLo&s" width="20px" height="20px"></a>
+                        
+                        <a href="#"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_kSUWXBvmFFEvv8AQ3FrS6vGowd0Rq4UVOHNkS76oUlRAzo2T&s" width="20px" height="20px"></a>
+                        
+                        <a href="#"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL5iJLydkS-Rpg8vuFF04qj48NnbRJb89d9dARmK4uaj4gK5YL&s" width="20px" height="20px"></a>
+                    </div>
+                </div>
+
+        </div>
+    </footer>
+
+
+
+
+    
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="home.js"></script>
+
+</body>
+
+</html>
